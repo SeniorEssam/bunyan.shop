@@ -1,0 +1,243 @@
+
+
+.footer-main {
+	background-color: #f2f3f5;
+	padding: 50px 0;
+    font-size: 15px;
+}
+
+/* ----- Subscription and Social ----- */
+.footer-main .orangebox {
+	background-color: var(--colorHighlight1);
+    color: white;
+	padding: 18px 50px;
+	border-radius: 12px;
+    margin-bottom: 15px;
+}
+@media(max-width: 1199.98px){
+    .footer-main .orangebox {
+        padding: 15px;
+    }
+}
+
+/*
+body:not(.homepage) .row-subscribe {
+	display: none;
+}
+*/
+.row-subscribe {
+    color: white;
+}
+
+.email-icon {
+	max-height: 120px;
+	margin-top: -37px;
+}
+.nl-title-subscribe {
+	font-weight: bold;
+	font-size: 24px;
+    line-height: 1;
+}
+.nl-title-rest {
+	font-size: 18px;
+	font-weight: 600;
+    line-height: 1;
+}
+
+.newsletter-wrapper {
+	position: relative;
+}
+#newsletter-email {
+	height: 50px;
+	border: 0;
+	border-radius: 30px;
+	width: 600px;
+	max-width: 100%;
+	background-color: white;
+	color: gray;
+	margin: 0;
+    text-align: unset;
+    box-shadow: none;
+}
+html[lang="en"] #newsletter-email {
+	padding: 5px 120px 5px 25px;
+}
+html[lang="ar"] #newsletter-email {
+	padding: 5px 25px 5px 120px;
+}
+
+#newsletter-email::placeholder {
+	color: darkgray;
+}
+
+#newsletter-subscribe-button {
+	border: 0;
+	background-color: var(--colorHighlight1);
+	height: 40px;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 5px;
+    z-index: 9;
+}
+html[lang="en"] #newsletter-subscribe-button {
+	right: 5px;
+}
+html[lang="ar"] #newsletter-subscribe-button {
+	left: 5px;
+}
+
+.newsletter-options {
+	flex-direction: column;
+}
+
+
+
+.social-footer a {
+	color: white;
+	font-size: 22px;
+	margin: 15px;
+}
+
+/* ----- whiteboxes ----- */
+.whiteboxes {
+	position: relative;
+    overflow: hidden;
+}
+.footer-bg {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(-25%,-50%);
+	pointer-events: none;
+}
+
+.footer-main .whitebox {
+	background-color: white;
+    color: #585858;
+	padding: 20px 50px;
+	border-radius: 12px;
+}
+.footer-main .whitebox:first-of-type {
+	padding: 35px 50px 35px;
+    margin-bottom: 15px;
+}
+@media(max-width: 1199.98px){
+    .footer-main .whitebox {
+        padding: 15px;
+    }
+    .footer-main .whitebox:first-of-type {
+        padding: 15px;
+    }
+}
+
+.footer-main h4 {
+	font-size: 17px;
+	font-weight: bold;
+	color: #989898;
+	margin-bottom: 4px;
+}
+
+/* ----- icon media ----- */
+.footer-main .icon-media{
+    color: var(--colorHighlight1);
+}
+.footer-main .icon-media .footer-lg-icon {
+	background-color: white;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	box-shadow: 1px 1px 8px #d5d3d3;
+	color: var(--colorHighlight1);
+	font-size: 35px;
+    z-index: 50;
+    position: relative;
+}
+@media(max-width: 1199.98px){
+    .footer-main .icon-media .footer-lg-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+    }
+}
+
+.footer-main .phone-no-lg {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1;
+}
+@media(max-width: 1199.98px){
+    .footer-main .phone-no-lg {
+        font-size: 23px;
+    }
+}
+
+/* ----- module footer links ----- */
+.module-footer-links h5 {
+	color: rgb(13,13,13);
+	margin-bottom: 5px;
+    text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+}
+.module-footer-links a {
+	color: #585858;
+	transition: all 0.2s ease;
+	display: flex;
+	padding: 2px 0;
+}
+.module-footer-links a:hover {
+	color: #000;
+}
+
+
+/* ----- copyright ----- */
+.copyright {
+	color: #989898;
+	font-size: 15px;
+}
+@media(max-width: 767.98px) {
+    .copyright {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+/* Go Top icon */
+/* #back-to-top {
+    background-color: var(--sl-black);
+    border-radius: 50%;
+} */
+
+/* whatsapp icon */
+#whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    position: fixed;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    opacity: 0.9;
+    z-index: 997;
+    background-color: transparent;
+    color: #fff;
+}
+html[lang="en"] #whatsapp {
+    left: 15px;
+}
+html[lang="ar"] #whatsapp {
+    right: 15px;
+}

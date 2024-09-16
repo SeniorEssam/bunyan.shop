@@ -1,0 +1,162 @@
+/* ===========================================================================
+Variables
+============================================================================*/
+
+:root {
+    --colorHighlight1: #ffae0d;
+    --colorHighlight1-hover: rgb(235, 152, 0);
+    --colorGreen: #6dbe45;
+    --sl-black: #333333;
+}
+
+/* ===========================================================================
+Reset
+============================================================================*/
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* ===========================================================================
+Typography
+============================================================================*/
+body {
+    background-color: #f8f8f8;
+    color: #21262c;
+}
+
+@media(max-width: 767.98px){
+    body{
+        font-size: 90%;
+    }
+}
+
+html[lang="ar"] body {
+    text-align: right;
+    direction: rtl;
+}
+
+a {
+    color: #21262c;
+    outline: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+.fs-20 {
+    font-size: 20px !important;
+}
+
+/* ===========================================================================
+RTL Fixes
+============================================================================*/
+html[lang="ar"] .list-inline-item:not(:last-child) {
+	margin-left: .5rem;
+    margin-right: unset;
+}
+
+/* ===========================================================================
+Utilities
+============================================================================*/
+.pointer-events-none{
+    pointer-events: none;
+}
+
+/* ---------- Colors ---------- */
+.color-gray {
+    color: gray !important;
+}
+.color-white {
+    color: white !important;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+/* ---------- Mirror ---------- */
+html[lang="ar"] .mirror-on-rtl {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+html[lang="ar"] i.mirror-on-rtl {
+    display: inline-block;
+}
+
+  
+/* ---------- Border Radius ---------- */
+.br-50{
+    border-radius: 50px;
+}
+.br-20{
+    border-radius: 20px;
+}
+.br-10{
+    border-radius: 10px;
+}
+.br-7{
+    border-radius: 7px;
+}
+
+/* ---------- Display ---------- */
+@media(min-width: 1200px){
+    .hide-1200-and-up{
+        display: none;
+    }
+}
+@media(max-width: 1199.98px){
+    .hide-lower-than-1200{
+        display: none;
+    }
+}
+
+/* ---------- Badge ---------- */
+.badge-outline {
+	display: inline-flex;
+	border: 1px solid #757575;
+	border-radius: 5px;
+	padding: 3px 7px;
+	min-width: 70px;
+	justify-content: center;
+}
+.badge-outline-danger {
+	color: #e4040e;
+}
+.badge-outline-success {
+	color: #3fa20e;
+}
+
+
+/* ---------- Margin Padding ---------- */
+
+
+/* ----------- Forms ---------- */
+.form-control::placeholder {
+	color: #a6a6a6;
+	opacity: 1;
+}
+.field-validation-error {
+	color: red;
+}

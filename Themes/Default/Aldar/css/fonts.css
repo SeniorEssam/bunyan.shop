@@ -1,0 +1,34 @@
+/* arabic fonts */
+
+@charset 'UTF-8';
+
+@import url('../../../../css2');
+
+/*@font-face {*/
+/*    font-family: DinNext;*/
+/*    src: url('fonts/DINNextArabicRegular.otf') format('embedded-opentype');*/
+/*    src: url('fonts/DINNextArabicRegular.ttf') format('truetype');*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: DinNext;*/
+/*    src: url('fonts/DINNextArabicBold.otf') format('embedded-opentype');*/
+/*    src: url('fonts/DINNextArabicBold.ttf') format('truetype');*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*body {*/
+/*    font-family: DinNext, sans-serif;*/
+/*}*/
+/*h1,h2,h3,h4,h5,h6{*/
+/*    font-family: DinNext, sans-serif;*/
+/*    font-weight: bold;*/
+/*}*/
+
+body {
+    font-family: "Cairo", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Cairo", sans-serif;
+    font-weight: bold;
+}
